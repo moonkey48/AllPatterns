@@ -11,6 +11,7 @@
 		3A1199D92CD286170010E3AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199D82CD286170010E3AB /* ContentView.swift */; };
 		3A1199DB2CD286180010E3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1199DA2CD286180010E3AB /* Assets.xcassets */; };
 		3A1199DE2CD286180010E3AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1199DD2CD286180010E3AB /* Preview Assets.xcassets */; };
+		3A1199EC2CD286F30010E3AB /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199EB2CD286F30010E3AB /* FactoryMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		3A1199D82CD286170010E3AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A1199DA2CD286180010E3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A1199DD2CD286180010E3AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A1199EB2CD286F30010E3AB /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,17 @@
 		3A1199E82CD286570010E3AB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				3A1199EA2CD286DC0010E3AB /* FactoryMethod */,
 			);
 			path = Creational;
+			sourceTree = "<group>";
+		};
+		3A1199EA2CD286DC0010E3AB /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				3A1199EB2CD286F30010E3AB /* FactoryMethod.swift */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1199EC2CD286F30010E3AB /* FactoryMethod.swift in Sources */,
 				3A1199D92CD286170010E3AB /* ContentView.swift in Sources */,
 				3A1199D72CD286170010E3AB /* AllPatternsApp.swift in Sources */,
 			);
