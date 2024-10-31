@@ -59,7 +59,7 @@ class ConcreteCreatorB: Creator {
 }
 
 
-class Client {
+private class Client {
     // ...
     static func someClientCode(creator: Creator) {
         print("Client: I'm not aware of the creator's class, but it still works" + creator.someOperation() )
