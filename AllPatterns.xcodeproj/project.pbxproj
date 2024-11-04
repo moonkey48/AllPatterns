@@ -15,6 +15,8 @@
 		3A1199EF2CD28BFC0010E3AB /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199EE2CD28BFC0010E3AB /* DefaultView.swift */; };
 		3A1199F42CD3C0B50010E3AB /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199F32CD3C0B50010E3AB /* Builder.swift */; };
 		3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */; };
+		3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF9982CD9100700BE7D1F /* Prototype.swift */; };
+		3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		3A1199EE2CD28BFC0010E3AB /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
 		3A1199F32CD3C0B50010E3AB /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExample.swift; sourceTree = "<group>"; };
+		3A8FF9982CD9100700BE7D1F /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
+		3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		3A1199E82CD286570010E3AB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				3A8FF9972CD90FFF00BE7D1F /* Prototype */,
 				3A1199F22CD3C0AC0010E3AB /* Builder */,
 				3A1199EA2CD286DC0010E3AB /* FactoryMethod */,
 			);
@@ -141,6 +146,15 @@
 				3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */,
 			);
 			path = Builder;
+			sourceTree = "<group>";
+		};
+		3A8FF9972CD90FFF00BE7D1F /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				3A8FF9982CD9100700BE7D1F /* Prototype.swift */,
+				3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,8 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */,
 				3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */,
 				3A1199EF2CD28BFC0010E3AB /* DefaultView.swift in Sources */,
+				3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */,
 				3A1199EC2CD286F30010E3AB /* FactoryMethod.swift in Sources */,
 				3A1199D92CD286170010E3AB /* ContentView.swift in Sources */,
 				3A1199D72CD286170010E3AB /* AllPatternsApp.swift in Sources */,
@@ -262,6 +278,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -325,6 +342,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
