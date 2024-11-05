@@ -17,6 +17,7 @@
 		3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */; };
 		3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF9982CD9100700BE7D1F /* Prototype.swift */; };
 		3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */; };
+		3AB7F0D32CDA44820057A78A /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7F0D22CDA44820057A78A /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExample.swift; sourceTree = "<group>"; };
 		3A8FF9982CD9100700BE7D1F /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeSample.swift; sourceTree = "<group>"; };
+		3AB7F0D22CDA44820057A78A /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 		3A1199E82CD286570010E3AB /* Creational */ = {
 			isa = PBXGroup;
 			children = (
+				3AB7F0D12CDA44750057A78A /* Singleton */,
 				3A8FF9972CD90FFF00BE7D1F /* Prototype */,
 				3A1199F22CD3C0AC0010E3AB /* Builder */,
 				3A1199EA2CD286DC0010E3AB /* FactoryMethod */,
@@ -155,6 +158,14 @@
 				3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */,
 			);
 			path = Prototype;
+			sourceTree = "<group>";
+		};
+		3AB7F0D12CDA44750057A78A /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				3AB7F0D22CDA44820057A78A /* Singleton.swift */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */,
+				3AB7F0D32CDA44820057A78A /* Singleton.swift in Sources */,
 				3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */,
 				3A1199EF2CD28BFC0010E3AB /* DefaultView.swift in Sources */,
 				3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */,
