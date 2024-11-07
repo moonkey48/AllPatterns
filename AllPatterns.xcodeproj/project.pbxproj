@@ -18,6 +18,7 @@
 		3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF9982CD9100700BE7D1F /* Prototype.swift */; };
 		3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */; };
 		3AB7F0D32CDA44820057A78A /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7F0D22CDA44820057A78A /* Singleton.swift */; };
+		3AFB7F912CDCD7E000D96BCC /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB7F902CDCD7E000D96BCC /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3A8FF9982CD9100700BE7D1F /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeSample.swift; sourceTree = "<group>"; };
 		3AB7F0D22CDA44820057A78A /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
+		3AFB7F902CDCD7E000D96BCC /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		3A1199E72CD286440010E3AB /* Patterns */ = {
 			isa = PBXGroup;
 			children = (
+				3AFB7F8E2CDCD7CB00D96BCC /* Structure */,
 				3A1199E82CD286570010E3AB /* Creational */,
 			);
 			path = Patterns;
@@ -166,6 +169,22 @@
 				3AB7F0D22CDA44820057A78A /* Singleton.swift */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		3AFB7F8E2CDCD7CB00D96BCC /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB7F8F2CDCD7D700D96BCC /* Adapter */,
+			);
+			path = Structure;
+			sourceTree = "<group>";
+		};
+		3AFB7F8F2CDCD7D700D96BCC /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				3AFB7F902CDCD7E000D96BCC /* Adapter.swift */,
+			);
+			path = Adapter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +260,7 @@
 				3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */,
 				3AB7F0D32CDA44820057A78A /* Singleton.swift in Sources */,
 				3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */,
+				3AFB7F912CDCD7E000D96BCC /* Adapter.swift in Sources */,
 				3A1199EF2CD28BFC0010E3AB /* DefaultView.swift in Sources */,
 				3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */,
 				3A1199EC2CD286F30010E3AB /* FactoryMethod.swift in Sources */,

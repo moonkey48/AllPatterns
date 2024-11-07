@@ -58,7 +58,7 @@ class SubClass: BaseClass {
 }
 
 /// The client code.
-class Client {
+private class Client {
     // ...
     static func someClientCode() {
         let original = SubClass(intValue: 2, stringValue: "Value2")
