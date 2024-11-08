@@ -63,6 +63,6 @@ class ClientSingleton {
 class SingletonConceptual: XCTestCase {
 
     func testSingletonConceptual() {
-        Client.someClientCode()
+        Singleton.shared.someBusinessLogic()
     }
 }

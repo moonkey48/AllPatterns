@@ -8,26 +8,26 @@
 import Foundation
 
 /// (1)
-protocol Product {
+private protocol Product {
     func operation() -> String
 }
 
 /// (2)
-class ConcreteProductA: Product {
+private class ConcreteProductA: Product {
     func operation() -> String {
         "some result of operation with Product A"
     }
 }
 
 /// (2)
-class ConcreteProductB: Product {
+private class ConcreteProductB: Product {
     func operation() -> String {
         "some result of operation with Product B"
     }
 }
 
 /// (3)
-protocol Creator {
+private protocol Creator {
     /// 기본적으로 제공해야 하는 factoryMethod, 특정 객체를 리턴해야 한다.
     func factoryMethod() -> Product
 
@@ -45,14 +45,14 @@ extension Creator {
 }
 
 /// (5)
-class ConcreteCreatorA: Creator {
+private class ConcreteCreatorA: Creator {
     public func factoryMethod() -> Product {
         return ConcreteProductA()
     }
 }
 
 /// (5)
-class ConcreteCreatorB: Creator {
+private class ConcreteCreatorB: Creator {
     public func factoryMethod() -> Product {
         return ConcreteProductB()
     }
@@ -68,7 +68,7 @@ private class Client {
 }
 
 
-class FactoryMethodConceptual {
+private class FactoryMethodConceptual {
     func testFactoryMethodConceptual() {
         print("App: Launched with the ConcreateCreatorA")
         Client.someClientCode(creator: ConcreteCreatorA())
