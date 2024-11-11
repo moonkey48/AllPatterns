@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A03BF862CE23FF800B76A43 /* Composite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03BF852CE23FF800B76A43 /* Composite.swift */; };
 		3A1199D72CD286170010E3AB /* AllPatternsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199D62CD286170010E3AB /* AllPatternsApp.swift */; };
 		3A1199D92CD286170010E3AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199D82CD286170010E3AB /* ContentView.swift */; };
 		3A1199DB2CD286180010E3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A1199DA2CD286180010E3AB /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A03BF852CE23FF800B76A43 /* Composite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Composite.swift; sourceTree = "<group>"; };
 		3A1199D32CD286170010E3AB /* AllPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A1199D62CD286170010E3AB /* AllPatternsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPatternsApp.swift; sourceTree = "<group>"; };
 		3A1199D82CD286170010E3AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A03BF842CE23FF000B76A43 /* Composite */ = {
+			isa = PBXGroup;
+			children = (
+				3A03BF852CE23FF800B76A43 /* Composite.swift */,
+			);
+			path = Composite;
+			sourceTree = "<group>";
+		};
 		3A1199CA2CD286170010E3AB = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +197,7 @@
 		3AFB7F8E2CDCD7CB00D96BCC /* Structure */ = {
 			isa = PBXGroup;
 			children = (
+				3A03BF842CE23FF000B76A43 /* Composite */,
 				3AC227A92CDDF59F00CF034C /* Bridge */,
 				3AFB7F8F2CDCD7D700D96BCC /* Adapter */,
 			);
@@ -277,6 +288,7 @@
 				3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */,
 				3AFB7F912CDCD7E000D96BCC /* Adapter.swift in Sources */,
 				3A1199EF2CD28BFC0010E3AB /* DefaultView.swift in Sources */,
+				3A03BF862CE23FF800B76A43 /* Composite.swift in Sources */,
 				3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */,
 				3A1199EC2CD286F30010E3AB /* FactoryMethod.swift in Sources */,
 				3AC227AD2CDDF61E00CF034C /* BridgeSample.swift in Sources */,

@@ -11,7 +11,7 @@ import XCTest
 /// The Abstraction defines the interface for the "control" part of the two
 /// class hierarchies. It maintains a reference to an object of the
 /// Implementation hierarchy and delegates all of the real work to this object.
-class Abstraction {
+private class Abstraction {
 
     fileprivate var implementation: Implementation
 
@@ -26,7 +26,7 @@ class Abstraction {
 }
 
 /// You can extend the Abstraction without changing the Implementation classes.
-class ExtendedAbstraction: Abstraction {
+private class ExtendedAbstraction: Abstraction {
 
     override func operation() -> String {
         let operation = implementation.operationImplementation()
@@ -39,21 +39,21 @@ class ExtendedAbstraction: Abstraction {
 /// interfaces can be entirely different. Typically the Implementation interface
 /// provides only primitive operations, while the Abstraction defines higher-
 /// level operations based on those primitives.
-protocol Implementation {
+private protocol Implementation {
 
     func operationImplementation() -> String
 }
 
 /// Each Concrete Implementation corresponds to a specific platform and
 /// implements the Implementation interface using that platform's API.
-class ConcreteImplementationA: Implementation {
+private class ConcreteImplementationA: Implementation {
 
     func operationImplementation() -> String {
         return "ConcreteImplementationA: Here's the result on the platform A.\n"
     }
 }
 
-class ConcreteImplementationB: Implementation {
+private class ConcreteImplementationB: Implementation {
 
     func operationImplementation() -> String {
         return "ConcreteImplementationB: Here's the result on the platform B\n"
@@ -64,7 +64,7 @@ class ConcreteImplementationB: Implementation {
 /// with a specific Implementation object, the client code should only depend on
 /// the Abstraction class. This way the client code can support any abstraction-
 /// implementation combination.
-class Client {
+private class Client {
     // ...
     static func someClientCode(abstraction: Abstraction) {
         print(abstraction.operation())
@@ -73,7 +73,7 @@ class Client {
 }
 
 /// Let's see how it all works together.
-class BridgeConceptual: XCTestCase {
+private class BridgeConceptual: XCTestCase {
 
     func testBridgeConceptual() {
         // The client code should be able to work with any pre-configured
