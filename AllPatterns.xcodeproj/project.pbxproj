@@ -16,6 +16,8 @@
 		3A1199EF2CD28BFC0010E3AB /* DefaultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199EE2CD28BFC0010E3AB /* DefaultView.swift */; };
 		3A1199F42CD3C0B50010E3AB /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199F32CD3C0B50010E3AB /* Builder.swift */; };
 		3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */; };
+		3A1E22EE2CE8794E000048B5 /* Flyweight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E22ED2CE8794E000048B5 /* Flyweight.swift */; };
+		3A1E22F02CE87AE2000048B5 /* FlyweightSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1E22EF2CE87AE2000048B5 /* FlyweightSample.swift */; };
 		3A8FF9992CD9100700BE7D1F /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF9982CD9100700BE7D1F /* Prototype.swift */; };
 		3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */; };
 		3AB7F0D32CDA44820057A78A /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB7F0D22CDA44820057A78A /* Singleton.swift */; };
@@ -39,6 +41,8 @@
 		3A1199EE2CD28BFC0010E3AB /* DefaultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultView.swift; sourceTree = "<group>"; };
 		3A1199F32CD3C0B50010E3AB /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
 		3A1199F52CD3C21C0010E3AB /* BuilderExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderExample.swift; sourceTree = "<group>"; };
+		3A1E22ED2CE8794E000048B5 /* Flyweight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flyweight.swift; sourceTree = "<group>"; };
+		3A1E22EF2CE87AE2000048B5 /* FlyweightSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightSample.swift; sourceTree = "<group>"; };
 		3A8FF9982CD9100700BE7D1F /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		3A8FF99A2CD9108900BE7D1F /* PrototypeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeSample.swift; sourceTree = "<group>"; };
 		3AB7F0D22CDA44820057A78A /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
@@ -176,6 +180,15 @@
 			path = Builder;
 			sourceTree = "<group>";
 		};
+		3A1E22EC2CE87943000048B5 /* Flyweight */ = {
+			isa = PBXGroup;
+			children = (
+				3A1E22ED2CE8794E000048B5 /* Flyweight.swift */,
+				3A1E22EF2CE87AE2000048B5 /* FlyweightSample.swift */,
+			);
+			path = Flyweight;
+			sourceTree = "<group>";
+		};
 		3A8FF9972CD90FFF00BE7D1F /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,6 +236,7 @@
 		3AFB7F8E2CDCD7CB00D96BCC /* Structure */ = {
 			isa = PBXGroup;
 			children = (
+				3A1E22EC2CE87943000048B5 /* Flyweight */,
 				3AF01EE82CE5D53200C860B0 /* Facade */,
 				3AF01EE32CE4E19C00C860B0 /* Decorator */,
 				3A03BF842CE23FF000B76A43 /* Composite */,
@@ -310,6 +324,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A1E22F02CE87AE2000048B5 /* FlyweightSample.swift in Sources */,
 				3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */,
 				3AC227AB2CDDF5AB00CF034C /* Bridge.swift in Sources */,
 				3AF01EE72CE4E21400C860B0 /* DecoratorSample.swift in Sources */,
@@ -323,6 +338,7 @@
 				3AC227AD2CDDF61E00CF034C /* BridgeSample.swift in Sources */,
 				3AF01EEA2CE5D53A00C860B0 /* Facade.swift in Sources */,
 				3A1199D92CD286170010E3AB /* ContentView.swift in Sources */,
+				3A1E22EE2CE8794E000048B5 /* Flyweight.swift in Sources */,
 				3AF01EEC2CE5D75200C860B0 /* FacadeSample.swift in Sources */,
 				3A1199D72CD286170010E3AB /* AllPatternsApp.swift in Sources */,
 				3A1199F42CD3C0B50010E3AB /* Builder.swift in Sources */,
