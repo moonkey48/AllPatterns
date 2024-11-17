@@ -27,6 +27,8 @@
 		3AF01EE72CE4E21400C860B0 /* DecoratorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF01EE62CE4E21400C860B0 /* DecoratorSample.swift */; };
 		3AF01EEA2CE5D53A00C860B0 /* Facade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF01EE92CE5D53A00C860B0 /* Facade.swift */; };
 		3AF01EEC2CE5D75200C860B0 /* FacadeSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF01EEB2CE5D75200C860B0 /* FacadeSample.swift */; };
+		3AF9B4F62CE9C4E900A397B4 /* Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9B4F52CE9C4E900A397B4 /* Proxy.swift */; };
+		3AF9B4F82CE9C56300A397B4 /* ProxySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF9B4F72CE9C56300A397B4 /* ProxySample.swift */; };
 		3AFB7F912CDCD7E000D96BCC /* Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFB7F902CDCD7E000D96BCC /* Adapter.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +54,8 @@
 		3AF01EE62CE4E21400C860B0 /* DecoratorSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecoratorSample.swift; sourceTree = "<group>"; };
 		3AF01EE92CE5D53A00C860B0 /* Facade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facade.swift; sourceTree = "<group>"; };
 		3AF01EEB2CE5D75200C860B0 /* FacadeSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeSample.swift; sourceTree = "<group>"; };
+		3AF9B4F52CE9C4E900A397B4 /* Proxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proxy.swift; sourceTree = "<group>"; };
+		3AF9B4F72CE9C56300A397B4 /* ProxySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProxySample.swift; sourceTree = "<group>"; };
 		3AFB7F902CDCD7E000D96BCC /* Adapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Adapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -233,9 +237,19 @@
 			path = Facade;
 			sourceTree = "<group>";
 		};
+		3AF9B4F42CE9C4E000A397B4 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				3AF9B4F52CE9C4E900A397B4 /* Proxy.swift */,
+				3AF9B4F72CE9C56300A397B4 /* ProxySample.swift */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		3AFB7F8E2CDCD7CB00D96BCC /* Structure */ = {
 			isa = PBXGroup;
 			children = (
+				3AF9B4F42CE9C4E000A397B4 /* Proxy */,
 				3A1E22EC2CE87943000048B5 /* Flyweight */,
 				3AF01EE82CE5D53200C860B0 /* Facade */,
 				3AF01EE32CE4E19C00C860B0 /* Decorator */,
@@ -328,6 +342,8 @@
 				3A8FF99B2CD9108900BE7D1F /* PrototypeSample.swift in Sources */,
 				3AC227AB2CDDF5AB00CF034C /* Bridge.swift in Sources */,
 				3AF01EE72CE4E21400C860B0 /* DecoratorSample.swift in Sources */,
+				3AF9B4F82CE9C56300A397B4 /* ProxySample.swift in Sources */,
+				3AF9B4F62CE9C4E900A397B4 /* Proxy.swift in Sources */,
 				3AB7F0D32CDA44820057A78A /* Singleton.swift in Sources */,
 				3A1199F62CD3C21C0010E3AB /* BuilderExample.swift in Sources */,
 				3AFB7F912CDCD7E000D96BCC /* Adapter.swift in Sources */,
